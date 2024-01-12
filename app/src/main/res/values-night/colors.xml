@@ -1,0 +1,11 @@
+<resources>
+    <!-- Primary colors -->
+
+    <!-- Secondary colors -->
+
+    <!-- Other colors for text, backgrounds, etc. -->
+    <color name="background">#000000</color>
+    <color name="timerback">#000000</color>
+    <color name="textColor">#FFFFFF</color>
+    <color name="ripple">#00FFFF</color>
+</resources>

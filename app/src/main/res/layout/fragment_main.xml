@@ -1,0 +1,68 @@
+<!-- fragment_main.xml -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.cooldowns.MainActivity">
+
+
+    <TextView
+        android:id="@+id/tvMainTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="@string/categories" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvMainTitle"
+        android:layout_above="@id/btnAdd"
+        android:layout_marginTop="0dp"/>
+
+    <ImageView
+        android:id="@+id/emptyViewMainAlert"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/emptyViewMain"
+        android:layout_marginBottom="10dp"
+        app:srcCompat="@android:drawable/ic_menu_info_details"
+        android:visibility="gone"
+        />
+    <TextView
+        android:id="@+id/emptyViewMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-thin"
+        android:text="Add categories below!"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:visibility="gone"
+        />
+
+
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/Button"
+        android:textSize="40sp"
+        android:textAlignment="center"/>
+
+
+</RelativeLayout>

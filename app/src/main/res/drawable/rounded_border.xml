@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/ripple"> <!-- Ripple color -->
+
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="15dp" /> <!-- Match the radius from your rounded_border.xml -->
+            <stroke
+                android:color="@color/textColor"
+                android:width="2dp" /> <!-- Match the stroke from your rounded_border.xml -->
+            <solid android:color="@color/timerback" /> <!-- Background color -->
+        </shape>
+    </item>
+
+    <item android:id="@android:id/mask">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/timerback" /> <!-- This can be any color, but it should match your item's background for a subtle effect -->
+            <corners android:radius="15dp" /> <!-- Match the radius from your rounded_border.xml -->
+        </shape>
+    </item>
+</ripple>

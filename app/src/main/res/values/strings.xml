@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">CoolDowns</string>
+    <string name="Button">+</string>
+    <string name="dialog_timer_name">Timer Name</string>
+    <string name="ZeroTimer">00:00:00</string>
+    <string name="timer_name">Timer Name</string>
+    <string name="dialog_timer_duration">Timer Duration</string>
+    <string name="delete">Delete</string>
+    <string name="channel_name">Timer Notifications</string>
+    <string name="channel_description">Notifications for Timer Completion</string>
+    <string name="seconds">Seconds</string>
+    <string name="minutes">Minutes</string>
+    <string name="hours">Hours</string>
+    <string name="dialog_category_name">Category Name</string>
+    <string name="Timer">Timer</string>
+    <string name="Category">Category</string>
+    <string name="fragment_name">Fragment Name</string>
+    <string name="categories">Categories</string>
+    <string name="return_to_main">Return to Main</string>
+
+</resources>

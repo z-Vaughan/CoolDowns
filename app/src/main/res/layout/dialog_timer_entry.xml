@@ -1,0 +1,49 @@
+<!-- dialog_timer_entry.xml -->
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/background">
+
+    <EditText
+        android:id="@+id/editTextHours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextName"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@id/editTextMinutes"
+        android:hint="@string/hours"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextMinutes"
+        android:layout_below="@id/editTextName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_toStartOf="@id/editTextSeconds"
+        android:hint="@string/minutes"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/editTextSeconds"
+        android:layout_below="@id/editTextName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:hint="@string/seconds"
+        android:inputType="number"/>
+    <!-- EditText for the action name -->
+    <EditText
+        android:id="@+id/editTextName"
+        android:textColor="@color/textColor"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:hint="@string/dialog_timer_name"
+        android:inputType="text" />
+
+
+</RelativeLayout>

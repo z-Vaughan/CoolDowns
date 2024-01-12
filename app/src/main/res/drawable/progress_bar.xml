@@ -1,0 +1,18 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item android:id="@android:id/progress">
+
+
+
+            <clip>
+                <shape android:shape="rectangle">
+                    <corners android:radius="2dp" />
+                    <solid android:color="@color/ripple" /> <!-- Progress color -->
+
+
+                </shape>
+            </clip>
+    </item>
+</layer-list>

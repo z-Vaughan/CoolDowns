@@ -1,0 +1,20 @@
+<!-- dialog_fragment_entry.xml -->
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/background">
+
+    <EditText
+        android:id="@+id/categoryName"
+        android:textColor="@color/textColor"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:hint="@string/dialog_category_name"
+        android:inputType="text" />
+
+
+</RelativeLayout>
